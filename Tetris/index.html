@@ -120,27 +120,27 @@
 	<body onLoad="initGame()">
 		<div id="tetris">
 			<div id="control">
-				难度：
+				Difficulty:
 				<div><select id="level" onChange="changespeed()">
-					<option value="1000">简单</option>
-					<option value="500">一般</option>
-					<option value="200">困难</option>
+					<option value="1000">simple</option>
+					<option value="500">common</option>
+					<option value="200">difficult</option>
 				</select></div>
-				<input type="button" id="regame" value="重 新 开 始" onClick="regame()" />
+				<input type="button" id="regame" value="Restart" onClick="regame()" />
 				<p>
-					↑：变换<br />
-					←：左移<br />
-					→：右移<br />
-					↓：加速<br />
+					↑：Change direction<br />
+					←：Left move<br />
+					→：Right move<br />
+					↓：Speed up<br />
 				</p>
 			</div>
 			<div id="TFrime"></div>
 			<div id="info">
-				下一个图形:
+				The next figure:
 				<div id="nextfigure">
 					
 				</div>
-				<div>分数：<span id="score">0</span></div>
+				<div>Points：<span id="score">0</span></div>
 			</div>
 		</div>
 		<div style="text-align:center;">
